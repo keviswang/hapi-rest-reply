@@ -1,6 +1,6 @@
 {
   "name": "hapi-rest-reply",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "rest reply for hapi",
   "main": "index.js",
   "scripts": {

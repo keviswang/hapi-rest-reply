@@ -2,7 +2,7 @@
 const Boom = require('boom')
 const internals = {}
 
-internals.success = function (data, message) {
+internals.success = function (data, message='成功') {
   return this.response({
     code: 0,
     message,
@@ -10,7 +10,7 @@ internals.success = function (data, message) {
   })
 }
 
-internals.fail = function (data, message) {
+internals.fail = function (data, message='失败') {
   return this.response({
     code: -1,
     message,
